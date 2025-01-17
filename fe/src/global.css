@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+:root{
+    --text-color: #fff;
+    --background-color: #000;
+}
+  
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.button-filled{
+    padding: 16px 60px;
+    border-radius: 12px;
+    background: linear-gradient(54deg, #05FF33 -3.71%, #66FFCF 108.74%);
+    border: none;
+    font-size: 24px;
+    color: #090A0A;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.full-width{
+    width: 100%;
+}
+
+/* navbar */
+.navbar-outer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 130px;
+    padding: 0 85px;
+    align-items: center;
+}
+.navbar-logo-outer{
+    width: 160px;
+    height: auto;
+}
+.navbar-logo-outer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.navbar-links-outer{
+    display: flex;
+    gap: 46px;
+}
+.navbar-links-outer li{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+.navbar-links-outer a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Footer */
+.footer-img-outer{
+    height: auto;
+    width: 30px;
+    margin: auto;
+}
+  
+.footer-img{
+    width: 30px;
+    height: 100%;
+}
+.footer-sub-container{
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo-img{
+    width:132px;
+}
+.footer-outer{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.footer-link{
+    color: white;   
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+@media (width < 1300px) {
+    .navbar-outer{
+        padding: 0 60px;
+    }   
+    .button-filled{
+        padding: 15px 37px;
+    }
+}
+
+@media (width < 1040px) {
+    .navbar-outer{
+        padding: 0 40px;
+    }   
+    .button-filled{
+        padding: 15px 37px;
+    }
+    .navbar-links-outer{
+        gap: 38px;
+    }
+    .navbar-links-outer li{
+        font-size: 16px;
+    }
+}
+
+@media (width < 768px) {
+    .navbar-outer{
+        padding: 0 24px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar-logo-outer{
+        width: 120px;
+    }
+    .navbar-links-outer{
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+    .button-filled{
+        padding: 15px 37px;
+        font-size: 16px;
+    }
+    .collabs{
+        flex-direction: column;
+    }
+}
+.collabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 48px;
+}

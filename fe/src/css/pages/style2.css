@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .section .plane {
+    position: absolute;
+    left: 0px;
+    width: 310px;
+    top: 160px;
+    height: auto;
+    z-index: -1; }
+    @media (width < 800px) {
+      .section .plane {
+        display: none; } }
+  .section .cash-1 {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 200px;
+    height: auto;
+    z-index: -2; }
+    @media (width < 800px) {
+      .section .cash-1 {
+        right: 0;
+        left: unset;
+        width: 100px; } }
+  .section .cash-2 {
+    position: absolute;
+    top: 50px;
+    right: 240px;
+    width: 200px;
+    height: auto;
+    z-index: -2; }
+    @media (width < 800px) {
+      .section .cash-2 {
+        left: 0px;
+        top: 30px;
+        width: 130px; } }
+  .section .cash-3 {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    width: 140px;
+    height: auto;
+    z-index: -2; }
+  .section .cash-4 {
+    position: absolute;
+    top: 420px;
+    right: 0px;
+    width: 180px;
+    height: auto;
+    z-index: -2; }
+  .section .cash-5 {
+    position: absolute;
+    top: 600px;
+    right: 300px;
+    width: 80px;
+    height: auto;
+    z-index: -2; }
+  .section .cash-6 {
+    position: absolute;
+    bottom: 250px;
+    left: 70px;
+    width: 130px;
+    height: auto;
+    z-index: -2; }
+    @media (width < 800px) {
+      .section .cash-6 {
+        left: -20px;
+        bottom: 0;
+        right: 15px;
+        width: 100px; } }
+  .section .cash-7 {
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    width: 190px;
+    height: auto;
+    z-index: -2; }
+    @media (width < 800px) {
+      .section .cash-7 {
+        left: unset;
+        right: 0px;
+        width: 120px; } }
+  .section .cash-8 {
+    position: absolute;
+    bottom: 0px;
+    right: 380px;
+    width: 190px;
+    height: auto;
+    z-index: -2; }
+    @media (width < 1100px) {
+      .section .cash-8 {
+        display: none; } }
+  .section .car {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 240px;
+    width: auto;
+    z-index: -1; }
+    @media (width < 800px) {
+      .section .car {
+        display: none; } }
+  .section .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2rem; }
+    @media (width < 768px) {
+      .section .content {
+        margin: 0 1.6rem; } }
+    .section .content .logo {
+      width: 110px;
+      height: auto; }
+    .section .content .form {
+      max-width: 772px;
+      background-color: #FFFFFF;
+      color: #000000;
+      padding: 1.9rem;
+      border-radius: 12px;
+      margin-top: 1.9rem; }
+      @media (width < 768px) {
+        .section .content .form {
+          padding: 1.7rem; } }
+      .section .content .form .heading {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 36px; }
+        @media (width < 768px) {
+          .section .content .form .heading {
+            font-size: 1.8rem; } }
+      .section .content .form .sub-text {
+        margin-top: 10px;
+        font-size: .8rem; }
+      .section .content .form .input-outer {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 2rem; }
+        .section .content .form .input-outer .heading {
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 16px; }
+          .section .content .form .input-outer .heading .required {
+            color: red; }
+        .section .content .form .input-outer .input {
+          padding: 1rem;
+          border-radius: 8px;
+          border: 1px solid #E3E5E5;
+          outline: none;
+          font-size: .9rem; }
+          .section .content .form .input-outer .input:focus {
+            outline: 1px solid #000000; }
+      .section .content .form .button {
+        background-color: #000000;
+        color: #FFFFFF;
+        border-radius: 12px;
+        border: 1px solid #000000;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 2rem; }
+    .section .content .tail-img {
+      margin: 44px 0;
+      width: 44px;
+      height: auto; }
+
+/*# sourceMappingURL=style.css.map */

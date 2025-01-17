@@ -1,0 +1,158 @@
+.main{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px 0;
+}
+
+.details-outer{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.details-heading{
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 67px;
+    color: var(--text-color);
+}
+
+
+.details-texts-outer{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-size: 24px;
+}
+.details-texts-outer ul, .details-texts-outer ol{
+    padding-left: 30px;
+}
+.details-texts-outer li{
+    margin-top: 16px;
+    line-height: 32px;
+}
+.details-sub-headings{
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.details-texts-outer span{
+    color: #05FF33;
+    font-weight: bold;
+}
+
+.devider{
+    height: 1px;
+    border: 1px solid white;
+}
+
+/* Founder Section */
+.founder-outer{
+    display: flex;
+    gap: 70px;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.first-img-outer{
+    aspect-ratio: 2/2;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.first-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.founder-img-caution{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.founder-details-heading{
+    font-size: 28px;
+
+}
+.founder-details-text{
+    margin-top: 16px;
+}
+
+
+  
+
+/* Responsiveness */
+
+@media (width < 1300px) {
+    .main{
+        padding: 40px 60px;
+    }   
+  }
+  
+  @media (width < 1040px) {
+    .main{
+        padding: 20px 40px;
+    }
+    .details-texts-outer ul, .details-texts-outer ol{
+        padding-left: 24px;
+    }
+    .details-sub-headings{
+        margin-top: 40px;
+        font-size: 28px;
+    }
+    .details-texts-outer{
+        gap: 18px;
+    }
+    .details-texts-outer li{
+        margin-top: 10px;
+        line-height: 28px;
+    }
+
+  }
+  
+  @media (width < 768px) {
+    .main{
+        padding:24px;
+    } 
+    .details-sub-headings{
+        margin-top: 40px;
+        font-size: 24px;
+    }
+    .details-heading{
+      font-size: 30px;
+      line-height: 34px;
+    }
+    .details-texts-outer{
+      line-height: 18px;
+      font-size: 16px;
+    }
+    .donation-list-outer{
+      padding: 24px;
+    }
+    .details-texts-outer ul, .details-texts-outer ol{
+        padding-left: 20px;
+    }
+    .details-texts-outer{
+        gap: 16px;
+    }
+    .details-texts-outer li{
+        margin-top: 8px;
+        line-height: 24px;
+    }
+
+    /* Founder Section */
+    .founder-outer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .founder-details-heading{
+        font-size: 24px;
+
+    }
+    .founder-details-text{
+        margin-top: 12px;
+    }
+
+
+  }

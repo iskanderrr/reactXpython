@@ -1,0 +1,74 @@
+.donations-section{
+    display: flex;
+    flex-direction: column;
+}
+.donations-section .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+  
+  /* Table Section */
+  .donations-list {
+    margin-top: 20px;
+  }
+  
+  .donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .donations-table th, .donations-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .donations-table th {
+    background-color: #f1f1f1;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .donations-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  .donations-table tr:hover {
+    background-color: rgba(204, 250, 179, 0.623);
+  }
+  
+  .button-edit {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+  }
+  
+  .button-edit:hover {
+    background-color: #218838;
+  }
+  
+  .button-delete {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-delete:hover {
+    background-color: #c82333;
+  }
+  
